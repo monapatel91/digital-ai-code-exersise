@@ -1,0 +1,38 @@
+.imageList{
+  width: '100%';
+  max-height:calc(100vh - 190px);
+}
+.imgListOpacity {
+  opacity:0.3;
+}
+.imgDetailsWrapper{
+  position:absolute;
+  left:20%;
+  top:12%;
+  width:60%;
+  height:calc(100vh - 190px);
+  
+}
+@media only screen and (max-width: 1024px){
+  .imgDetailsWrapper{
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 335px);
+  }
+}
+.imgDetailsWrapper > button {
+  position: absolute;
+  top:-10%;
+  right: 0;
+}
+.fullImg{
+  width: 100%;
+  height:100%;
+}
+
+input{
+  display: none;
+}
+.uploadBtnWrapper{
+  margin-bottom:20px;
+}
